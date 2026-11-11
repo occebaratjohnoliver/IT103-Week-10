@@ -1,0 +1,53 @@
+
+/* Page background and general style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f2f4;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Main container design */
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+/* Heading style */
+h1 {
+    color: #333333;
+    text-align: center;
+}
+
+/* Input design */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Button design */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Output style */
+#output {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Error message */
+.error {
+    color: #9b2318;
+}
